@@ -44,7 +44,7 @@ char brightness_to_ascii_v2(int brightness) {
 }
 
 int main() {
-    cv::Mat image = cv::imread("img6.jpg", cv::IMREAD_GRAYSCALE); 
+    cv::Mat image = cv::imread("img.jpg", cv::IMREAD_GRAYSCALE); 
     cv::resize(image, image, cv::Size(), 1, 1);
 
     if (image.empty()) {
